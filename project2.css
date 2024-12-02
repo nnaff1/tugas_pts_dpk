@@ -1,0 +1,629 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgb(255, 255, 255);
+}
+nav {
+    width: 100%;
+    background-color: rgba(52, 52, 52, 0.441);
+    display: flex;
+    z-index: +1;
+    padding: 1rem;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: rem;
+    list-style: none; 
+    margin-left: 170px;
+    position: relative;
+}
+nav div img {
+    width: 50px;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #191919;
+    padding: 1px;
+    transition: all;
+    transition-duration: 300ms;
+    border-bottom: 1px solid rgba(255, 68, 0, 0);
+    margin-left: 150px;
+    position: relative;
+    
+    
+}
+nav ul li a:hover {
+    border-bottom: 1px solid black;
+    color: orangered;
+    border-bottom: 1px solid orangered;
+    position: relative;
+    
+}
+.kotak {
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.kotak-atas {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(128, 128, 128);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    list-style: none;
+    font-size: 30px ; color: rgb(223, 223, 223);
+    padding-left: 50px;
+    padding-top: 25px;
+        
+}
+.kotak-bawah  {
+    width: 100%;
+    height: 200px;
+    background-color: rgb(211, 211, 211);
+    display: flex;
+}
+.bawah1 {
+    width: 25%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: rgb(0, 0, 0); 
+    position: relative;
+}
+.bawah1 a{
+    color: black;
+    text-decoration: none;
+}
+.bawah3 {
+    border-right: 2px solid black;
+    background-color:rgb(211, 211, 211);
+    margin-left: 10px;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bawah2 {
+    width: 25%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 15px;
+
+}
+.border-bawah2 {
+    width: 25%;
+    height: 100%;
+    border-right: 2px solid black;
+    margin-left: -40px;
+}
+.gambar-tengah img{
+    height: 72%;
+    width: 73%;
+    padding-left: 340px;
+    margin-top: -100px;
+    position: absolute;
+    z-index: -1;
+}
+.gambar-kiri img {
+    height: 34%;
+    width: 24%;
+    margin-left:940px;
+    margin-top: -100px;
+    position: absolute;
+}
+.gambar-kiri2 img {
+    height: 34%;
+    width: 24%;
+    margin-left: 940px;
+    margin-top: 145px;
+    position: absolute;
+}
+.gambar-kanan img {
+    height: 140px;
+    width: 300px;
+    margin-top: 205px;
+    margin-left: 20px;
+    position: absolute;
+}
+.background-awalan img{
+    height: 100%;
+    width: 100%;
+    margin-top: -100px;
+    z-index: -1;
+    position: relative;
+    
+}
+.Teks-merk {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 10px;
+}
+.device-handphone {
+    width: 920px;
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 420px;
+    margin-left: 5px;
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.merk1 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-top: 100px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+}
+.merk2 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(194, 194, 194);
+    margin-top: 200px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk3 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 300px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk4 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(194, 194, 194);
+    margin-top: 400px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk5 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 500px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk6 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(194, 194, 194);
+    margin-top: 600px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk7 {
+    width: 920px;
+    height: 50px; 
+    background-color:   rgb(255, 255, 255);
+    margin-top: 700px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk8 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(194, 194, 194);
+    margin-top: 800px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk9 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(255, 255, 255);
+    margin-top: 900px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk10 {
+    width: 920px;
+    height: 50px; 
+    background-color: rgb(194, 194, 194);
+    margin-top: 1000px;
+    display: flex;
+    align-items: center ;
+    justify-content: left;
+    position: absolute;
+    color: black;
+}
+.merk-kiri {
+    width: 0;
+    height: 0;
+    margin-left: 940px;
+    margin-top: 420px;
+    position: absolute;
+}
+.merk-kiri1 img {
+    width: 305px;
+}
+.merk-kiri2 img {
+    width: 305px;
+}
+.merk-kiri3 img {
+    width: 305px;   
+}
+.teks-fitur {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    position: absolute;
+    margin-top: 970px;
+    margin-left: 10px;
+}
+.background-awalan1 img {
+    position: absolute;
+    margin-top: -220px;
+    margin-left: 400px;
+}
+.kotak-fitur1 img{
+    position: absolute;
+    margin-top: 950px;
+}
+.kotak-depan img {
+    margin-top: 1200px;
+}
+.teks-kotak-depan {
+    position: absolute;
+    margin-top: 1260px;
+    margin-left: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 220px;
+    height: fit-content;
+}
+.teks-kotak-depan h1 {
+    font-size: 20px;
+}
+.teks-kotak-depan p {
+    font-size: 12px;
+}
+.kotak-harga {
+    margin-top: 480px;
+    margin-left: 25px;
+    position: absolute;
+}
+.teks-kotak-harga1 {
+    position: absolute;
+    margin-top: 1435px;
+    margin-left: 40px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+
+.kotak-fitur2 img {
+    position: absolute;
+    margin-top: 950px;
+    margin-left: 270px;
+}
+.kotak-depan2 img {
+    margin-top: 1200px;
+    margin-left: 320px;
+}
+.teks-kotak-depan2 {
+    position: absolute;
+    margin-top: 1260px;
+    margin-left: 340px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    width: 220px;
+    height: fit-content;
+}
+.teks-kotak-depan2 h1 {
+    font-size: 20px;
+}
+.teks-kotak-depan2 p {
+    font-size: 12px;
+}
+.kotak-harga2 {
+    margin-top: 480px;
+    margin-left: 350px;
+    position: absolute;
+}
+.teks-kotak-harga2 {
+    position: absolute;
+    margin-top: 1435px;
+    margin-left: 370px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.kotak-fitur3 img {
+        position: absolute;
+    margin-top: 950px;
+    margin-left: 600px;
+    z-index: -1;
+}
+.kotak-depan3 img {
+    margin-top: 1200px;
+    margin-left: 650px;
+
+}
+.teks-kotak-depan3 {
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 670px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    width: 220px;
+    height: fit-content;  
+}
+.teks-kotak-depan3 h1 {
+    font-size: 20px;
+}
+.teks-kotak-depan3 p {
+    font-size: 12px;
+}
+.kotak-harga3 {
+    margin-top: -105px;
+    margin-left: 680px;
+}
+.teks-kotak-harga3 {
+    position: absolute;
+    margin-top: -35px;
+    margin-left: 700px;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+}
+.kotak-fitur4 img {
+    position: absolute;
+    margin-top: -520px;
+    margin-left: 940px;
+    z-index: -1;
+}
+.kotak-depan4 img {
+    margin-top: -270px;
+    margin-left: 990px;
+}
+.teks-kotak-depan4 {
+    position: absolute;
+    margin-top: -275px;
+    margin-left: 1010px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    width: 220px;
+    height: fit-content;   
+}
+.teks-kotak-depan4 h1 {
+    font-size: 20px;
+}
+.teks-kotak-depan4 p {
+    font-size: 12px;
+}
+.kotak-harga4 {
+    margin-top: -105px;
+    margin-left: 1020px;
+}
+.teks-kotak-harga4 {
+    margin-left: 1040px;
+    margin-top: -36px;
+    position: absolute;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: white;
+
+}
+.background-samsung img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.teks-background {
+    position: absolute;
+    margin-top: 41%;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    z-index: 1;
+    color: white;
+}
+.background-font-samsung {
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    margin-top: 450px;
+}
+.samsung1 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 6px;
+}
+.teks-samsung1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 6px;
+    color: black;
+}
+.samsung2 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 230px;
+}
+.teks-samsung2 {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.samsung3 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 440px;
+}
+.teks-samsung3 {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 440px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.samsung4 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 650px;
+}
+.teks-samsung4 {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 650px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.samsung5 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 860px;
+}
+.teks-samsung5 {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 860px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.samsung6 img {
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 1070px;
+}
+.teks-samsung6 {
+    position: absolute;
+    margin-top: 920px;
+    margin-left: 1070px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.background-putih {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    margin-top: 1200px ;
+}
+.background-apple img {
+    width: 100%;
+    height: 100%;
+}
+.teks-background-apple {
+    position: absolute;
+    margin-top: 45%;
+    margin-left: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    z-index: 1;
+    color: white;
+}
+
+.about h1{
+    font-size: 60px;
+    width: 220px;
+    height: fit-content;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 550px;
+}
+.about p{
+    font-size: 50px;
+    width: 100%;
+    height: fit-content;
+}
+.teks2 {
+    margin-left: 200px;
+    margin-top: -210px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211);
+}
+.teks3 {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211);
+}
+.teks4 {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211);
+}
+.teks5 {
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211);  
+}
+.teks6{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211); 
+}
+.teks7{
+    margin-left: 200px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(217, 0, 0);
+    background-color: rgb(224, 211, 211); 
+}
+.samsunggalaxy {
+    margin-top: 90px;
+}
