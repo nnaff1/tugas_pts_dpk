@@ -30,7 +30,7 @@ $sudahlogin = isset($_SESSION['user']) && ($_SESSION['user']) === true;
         </div>
     </nav>
     <div class="atas">
-        <div class="samsunggalaxy"><img src="image 10.png" alt=""></div>
+        <div class="samsunggalaxy"><img src="image 10.png" alt=""><p>Samsung Z Fold Special</p></div>
         <div class="teks2"><h4>LAUNCH</h4><p>2024, October 21
             Status	Available. Released 2024, October 24</p></div>
         <div class="teks3"><h4>BODY</h4><p>Unfolded: 157.9 x 142.6 x 4.9 mm
@@ -50,5 +50,12 @@ $sudahlogin = isset($_SESSION['user']) && ($_SESSION['user']) === true;
         <div class="teks7"><H4>MAIN CAMERA</H4><p>Triple: 200 MP, f/1.8, (wide), PDAF, OIS
             10 MP, f/2.4, 66mm (telephoto), 1.0µm, PDAF, OIS, 3x optical zoom
             12 MP, f/2.2, 123˚, 12mm (ultrawide), 1.12µm, AF</p><p>Features: LED flash, HDR, panorama</p><p>Video: 8K@30fps, 4K@60fps, 1080p@60/120/240fps (gyro-EIS), 720p@960fps (gyro-EIS), HDR10+</p></div>
+
+            <footer style="background-color: #f8f9fa; padding: 10px 0; text-align: center; font-family: Arial, sans-serif; font-size: 14px;">
+    <p>Follow us on Instagram:</p>
+    <a href="https://www.instagram.com/phone_insight" target="_blank" style="text-decoration: none; color: #385898;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle;"> @phoneinsight
+    </a>
+</footer>
     </div>
     </body>

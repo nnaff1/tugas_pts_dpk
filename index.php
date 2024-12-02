@@ -176,7 +176,7 @@ $sudahlogin = isset($_SESSION['user']) && ($_SESSION['user']) === true;
 <footer style="background-color: #f8f9fa; padding: 10px 0; text-align: center; font-family: Arial, sans-serif; font-size: 14px;">
     <p>Follow us on Instagram:</p>
     <a href="https://www.instagram.com/phone_insight" target="_blank" style="text-decoration: none; color: #385898;">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle;"> @yourusername
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; height: 24px; vertical-align: middle;"> @phoneinsight
     </a>
 </footer>
 </body>
